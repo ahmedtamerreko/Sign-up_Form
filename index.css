@@ -1,0 +1,125 @@
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --fontstyle: "New Amsterdam", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: var(--fontstyle);
+
+}
+
+.image-background {
+    height: 620px;
+    width: 400px;
+    background: no-repeat url(StockCake-Joyful\ dinner\ celebration_1724506420.jpg);
+    background-position: center;
+    background-size: 400px 1200px;
+
+}
+
+.boster {
+    width: inherit;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sign {
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(189, 191, 202);
+}
+
+body div:nth-child(2) {
+    margin: 20px;
+    margin-top: 40px;
+    background-color: whitesmoke;
+    width: 500px;
+}
+
+form {
+    margin-top: 100px;
+}
+
+input,
+label {
+    display: block;
+}
+
+input {
+    width: 140px;
+    background-color: wheat;
+    height: 20px;
+    margin-bottom: 10px;
+    color: rgb(10, 10, 7);
+    font-weight: bold;
+
+}
+
+body>div:nth-child(2):first-child {
+    display: block;
+    margin-left: 0 !important;
+    padding: 0;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.container>div:nth-child(3),
+.container>div:nth-child(5) {
+    margin-left: 30px;
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 35%;
+    width: 140px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    font-size: large;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+input:valid {
+    border-color: greenyellow;
+    background-color: greenyellow;
+
+}
+
+input:focus {
+    border-color: blue;
+}
+
+legend {
+    color: green;
+    font-size: larger;
+}
+
+input:required:invalid {
+    border-color: #c00000;
+}
+
+button:hover {
+    cursor: pointer;
+}
