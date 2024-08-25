@@ -1,6 +1,6 @@
 # Sign-up_Form
 <br/>
-**[Live demo](https://ahmedtamerreko.github.io/Sign-up_Form/)**
+[Live Demo](https://ahmedtamerreko.github.io/Sign-up_Form/)
 <br/>
 sign-up form using
 <br/>
