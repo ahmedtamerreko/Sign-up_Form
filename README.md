@@ -5,9 +5,14 @@
 sign-up form using
 <br/>
 1-css custom properties
+<br/>
 2-flex box
+<br/>
 3-positioning
-3-inputs
+<br/>
+4-inputs
+<br/>
 5-labels
+<br/>
 6-Google Fonts (New Amsterdam font)
 and more
